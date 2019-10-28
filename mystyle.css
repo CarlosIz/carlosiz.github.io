@@ -5,6 +5,7 @@ h1 {
 }
 
 p{
+  text-align: left;
   color: orange;
   font-size: 30;
 
@@ -13,15 +14,22 @@ p{
 body {
   background-color: grey;
 
-  .left {
-        width: 25%;
-        float: left;
-        margin-left: 22%;
-        text-align: left;
+  text-align: center;
 
-      }
+}
+  .left {
+          font-size: 20;
+          color: orange;
+          width: 25%;
+          float: left;
+          margin-left: 22%;
+          text-align: left;
+
+          }
 
   .right {
+          font-size: 20;
+          color: orange;
           float: right;
           margin-right: 22%;
           text-align: right;

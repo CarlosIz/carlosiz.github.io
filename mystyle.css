@@ -1,0 +1,31 @@
+h1 {
+    font-family: serif;
+    color: inherit;
+
+}
+
+p{
+  color: orange;
+  font-size: 30;
+
+}
+
+body {
+  background-color: grey;
+
+  .left {
+        width: 25%;
+        float: left;
+        margin-left: 22%;
+        text-align: left;
+
+      }
+
+  .right {
+          float: right;
+          margin-right: 22%;
+          text-align: right;
+          width: 25%;
+
+        }
+}

@@ -1,0 +1,18 @@
+body {
+    background-color: bisque;
+
+}
+
+#text1 {
+    width: 800px;
+    height: 40%;
+    position: relative;
+    padding: 10px;
+    margin-right: 30px;
+    margin-left: 150px;
+    float: left;
+    display: inline;
+    color: coral;
+    font-size: 35px;
+
+}

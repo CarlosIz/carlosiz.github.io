@@ -24,8 +24,14 @@ var lI = 3;
 
 function setup() {
 
-createCanvas(500, 500);
+var canvas = createCanvas(500, 500);
+
+ //html stuff
+ canvas.position(550, 200);
+ canvas.class("areaC");
+
   reset();
+
 }
 
 function reset() {

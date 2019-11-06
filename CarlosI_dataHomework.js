@@ -16,9 +16,13 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(1000, 600);
+  var canvas = createCanvas(1000, 600);
   colorMode(HSB, 360, 100, 100);
   noStroke();
+
+  //html stuff
+  canvas.position(400, 200);
+  canvas.class("areaC");
 
   for (i = 0; i < gameTable.getRowCount(); i++) {
     names[i] = gameTable.getString(i, 0);

@@ -15,8 +15,12 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(848, 474);
+  var canvas = createCanvas(848, 474);
   background(0);
+
+  //html stuff
+  canvas.position(width/2, height/2);
+  canvas.class("areaC");
 
   //loading image data
   img1.loadPixels();

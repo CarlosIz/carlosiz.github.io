@@ -404,7 +404,7 @@ function graphF(dataTable, index) {
             pop();
 
         } else {
-            for (j = 0; j < genreIf.legnth / 2; j++) {
+            for (j = 0; j < 4 / 2; j++) {
                 fill(102, 192, 244);
                 ellipse(this.x * (j + 1), 150, 30, 30);
 

@@ -26,10 +26,11 @@ header ul {
     margin: 0;
 }
 
-header ul li {
+
+/* <<<<<<< HEAD header ul li {
     display: inline;
     float: left;
-}
+} */
 
 header a {
     color: white;
@@ -55,5 +56,13 @@ img {
     height: auto;
     position: relative;
     margin-left: 150px;
+    top: 0px;
+}
+
+.areaC {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    margin-left: 100px;
     top: 0px;
 }

@@ -7,8 +7,11 @@ var phoneC;
 var phoneD;
 
 function setup() {
-  createCanvas(800,800);
-
+  var canvas = createCanvas(800,800);
+  
+  //html stuff
+   canvas.position(400, 100);
+   canvas.class("areaC");
 
   phoneA = new phone(350, 400, 35, 2, 5);
   phoneB = new phone(600, 200, 28, 3, 7);

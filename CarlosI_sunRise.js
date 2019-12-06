@@ -8,7 +8,12 @@ var brightV;
 var stars = [];
 
 function setup() {
-  createCanvas(500,500);
+  var canvas = createCanvas(500,500);
+
+   //html stuff
+   canvas.position(600, 250);
+   canvas.class("areaC");
+
   colorMode(HSB, 360, 100, 100);
 
   for (var i = 0;  i < 50; i++) {

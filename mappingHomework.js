@@ -16,7 +16,12 @@ function setup() {
     
     hue = 0;
     
-    createCanvas(500, 500);
+    var canvas = createCanvas(500, 500);
+
+    //html stuff
+    canvas.position(550, 250);
+    canvas.class("areaC");
+
     background(150);
     
     //starting point

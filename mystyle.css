@@ -26,11 +26,10 @@ header ul {
     margin: 0;
 }
 
-
-/* <<<<<<< HEAD header ul li {
+HEAD header ul li {
     display: inline;
     float: left;
-} */
+}
 
 header a {
     color: white;
